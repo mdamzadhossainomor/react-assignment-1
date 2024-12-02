@@ -51,7 +51,7 @@ export default function Nav() {
                             </Link>
                         </NavbarItem>
 
-                        
+
                     </NavbarContent>
                     <NavbarContent justify="end">
                         <NavbarItem className="hidden md:flex">
@@ -75,9 +75,9 @@ export default function Nav() {
                     </NavbarContent>
                     <NavbarMenu className="bg-[#002228]">
                         {menuItems.map((item, index) => (
-                            <NavbarMenuItem key={`${item}-${index}` }>
+                            <NavbarMenuItem key={`${item}-${index}`}>
                                 <Link
-                               
+
                                     className="w-full text-2xl pt-4 text-white"
                                     href="#"
                                     size="lg"
