@@ -26,7 +26,32 @@ function Info() {
   return (
     <>
       <section className=" bg-[#002228] text-white">
-        
+        <div className="flex flex-wrap flex-col md:flex-row lg:flex-row ml-[20px] sm:ml-[50px] md:ml-[120px] max-w-[1440px] gap-[24px] px-[24px] mx-auto">
+          {infoData.map((item, i) => (
+            <div
+              key={i}
+              className="sm:w-[384px] md:w-[384px] lg:w-[384px] pt-8"
+            >
+              <div>
+                <figure>
+                  <img
+                    src={item.img}
+                    alt=""
+                    className="max-w-[54px] min-h-[54px]"
+                  />
+                </figure>
+              </div>
+              <div>
+                <h3 className="text-[24px] font-bold mt-[16px]">
+                  {item.title}
+                </h3>
+                <p className="w-full md:w-[260px] lg:w-[260px] text-[#FFFFFF] text-[18px] mt-2">
+                  {item.description}
+                </p>
+              </div>
+            </div>
+          ))}
+        </div>
       </section>
     </>
   );
