@@ -36,7 +36,13 @@ function Preferedemail() {
               strategy.
             </p>
 
-            
+            <div className="flex flex-wrap w-full  pb-5 lg:w-[550px] gap-8 mt-[64px]">
+              {mailData.map((item, i) => (
+                <div key={i}>
+                  <img src={item.img} alt="" />
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>
