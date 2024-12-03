@@ -1,6 +1,25 @@
 import React, { useState, useEffect } from "react";
 
-
+const testimonials = [
+  {
+    quote:
+      "Qorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
+    name: "John Doe",
+    title: "Chief Strategy Officer @ Company",
+  },
+  {
+    quote:
+      "Proin eu sapien vel nisi tincidunt volutpat. Morbi ac neque at justo dictum viverra.",
+    name: "Jane Smith",
+    title: "Marketing Head @ Business",
+  },
+  {
+    quote:
+      "Etiam porttitor arcu nec risus luctus feugiat. Sed mollis elit eget leo pretium.",
+    name: "Alice Johnson",
+    title: "CTO @ TechCorp",
+  },
+];
 
 const Carousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
