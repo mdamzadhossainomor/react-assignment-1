@@ -1,7 +1,20 @@
 import React from "react";
 
 function Preferedemail() {
-  
+  const mailData = [
+    {
+      img: "Frame12.svg",
+    },
+    {
+      img: "Frame12.svg",
+    },
+    {
+      img: "Frame12.svg",
+    },
+    {
+      img: "Frame12.svg",
+    },
+  ];
 
   return (
     <>
