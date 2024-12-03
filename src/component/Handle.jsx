@@ -20,8 +20,8 @@ function Handle() {
   return (
       <>
           <div className='bg-[#002228] flex justify-center text-white pt-6 pb-6'>
-              <div className='bg-[url(ls1.svg)] w-full pl-5 pr-5 mx-5 sm:w-[1344px] md:w-[1344px] lg:w-[1344px] bg-cover  h-auto md:h-[564px] rounded-l-3xl bg-right-bottom pb-6'>
-                  <div className=' pl-[24px] sm:pl-[72px] md:pl-[72px] lg:[72px] mt-[69px]'>
+              <div className='bg-[url(/ls1.svg)] w-full pl-5 pr-5 mx-5 sm:w-[1344px] md:w-[1344px] lg:w-[1344px] bg-cover  h-auto md:h-[564px] rounded-l-3xl bg-right-bottom pb-6'>
+                  <div className='  sm:pl-[72px] md:pl-[72px] lg:[72px] mt-[69px]'>
                       <h2 className='md:w-[591px lg:w-[591px] text-[32px]'>
                           Allocate effort where your reps make an inpact.
                       </h2>

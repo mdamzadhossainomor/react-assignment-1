@@ -19,7 +19,7 @@ function Preferedemail() {
   return (
     <>
       <div className="bg-[#002228] flex justify-center text-white pt-6 pb-6 ">
-        <div className="bg-[url(BG.svg)] w-full pb-6 sm:w-[1344px] md:w-[1344px] lg:w-[1344px] h-auto md:h-[564px] bg-left-bottom bg-cover flex justify-center mx-5 rounded-2xl">
+        <div className="bg-[url(/BG.svg)] w-full pb-6 sm:w-[1344px] md:w-[1344px] lg:w-[1344px] h-auto md:h-[564px] bg-left-bottom bg-cover flex justify-center mx-5 rounded-2xl">
           <div className=" pl-[24px] sm:pl-[72px] md:pl-[250px] lg:[486px] mt-[69px] ">
             <h2 className="md:w-[591px lg:w-[591px] text-[32px]">
               Train your aiDR on your...
