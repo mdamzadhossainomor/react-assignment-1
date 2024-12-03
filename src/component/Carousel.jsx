@@ -75,7 +75,17 @@ const Carousel = () => {
         </div>
 
         
-       
+        <div className="flex justify-center mt-4 space-x-2">
+          {testimonials.map((_, index) => (
+            <button
+              key={index}
+              onClick={() => setCurrentIndex(index)}
+              className={`w-3 h-3 rounded-full ${
+                index === currentIndex ? "bg-teal-400" : "bg-gray-400"
+              }`}
+            ></button>
+          ))}
+        </div>
       </div>
     </div>
   );
