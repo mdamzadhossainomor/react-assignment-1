@@ -30,6 +30,13 @@ function Partners() {
             
 
 
+              <div className='flex flex-wrap mx-auto  justify-center gap-[20px] sm:gap-[28px] md:gap-[32px] lg:gap-[32px] mt-[24px] pb-[40px] '>
+                  {partnersData.map((item,i) => (
+                      <div key={i} className='flex flex-wrap'>
+                          <img src={item.img} alt="" />
+                      </div>
+                  ))}
+              </div>
           </section>
       </>
   )
